@@ -129,9 +129,9 @@ h1{
     text-align: center;
 }
 div.img-web{
-    width: 70%;
+    width: 170rem;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
 }
