@@ -1,11 +1,112 @@
-header{
-    background-color: blue;
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 
 }
-header .img-logo img{
+body{
+    background-color: rgb(0 74 173);
+
+}
+
+header {
+    background-color: rgb(0 74 173);
+    display: flex;
+    flex-direction: column;
+    height: 160px;
+}
+
+header div.top-part {
+    display: flex;
+    justify-content: flex-start;
+    height: 50%;
+    border-bottom: solid 4px white;
+}
+
+header div.top-part div.logo {
     width: 150px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-
+header div.top-part div.logo img {
+    width: 80%;
     
+}
+
+header div.top-part div.title-logo {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+header div.top-part div.title-logo h1 {
+    font-size: 20px;
+    color: white;
+}
+
+header div.top-part div.title-logo p {
+    font-size: 15px;
+    color: white;
+}
+
+header div.top-part nav {
+    width: 500px;
+    height: 100%;
+}
+
+header div.top-part nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+header div.top-part nav ul li {
+    list-style: none;
+}
+
+header div.top-part nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+header div.bottom-part {
+    height: 50%;
+
+}
+
+header div.bottom-part div.social {
+    width: 500px;
+    height: 100%;
+}
+
+header div.bottom-part div.social ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header div.bottom-part div.social ul li {
+    list-style: none;
+}
+
+header div.bottom-part div.social ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+main {
+    height:800px;
+    border-radius: 50px;
+    background-color: white;
+
 }
