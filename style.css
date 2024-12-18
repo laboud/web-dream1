@@ -107,7 +107,7 @@ header div.bottom-part div.social ul li a {
     color: white;
 }
 main {
-    height:800px;
+    height:1000px;
     border-radius: 50px 50px 0 0;
     background-color: white;
     overflow: hidden ;
@@ -129,9 +129,58 @@ h1{
     text-align: center;
 }
 div.img-web{
-    width: 140rem;
+    width: 130rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     flex-direction: column;
+
+
+}
+ div.canter-aboutus nav {
+    width: 500px;
+   
+  
+}
+ div.canter-aboutus ul {
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+    padding: 9px;
+
+
+}
+
+ div.canter-aboutus ul li {
+    list-style: none;
+}
+
+div.canter-aboutus ul li a {
+    text-decoration: none;
+    color: black;
+}
+div.team-web nav {
+    width: 500px;
+  
+}
+
+div.team-web ul  li a {
+    
+    display: flex;
+    justify-content:space-around;
+    font-size: larger;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+
+}
+footer{
+    border-bottom: solid 4px rgb(221, 212, 212);
+}
+footer span{
+
+}
+ footer p{
+    text-align: right;
+     padding-bottom: 370px;
+
 }
