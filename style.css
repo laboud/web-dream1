@@ -156,7 +156,7 @@ div.img-web{
 
 div.canter-aboutus ul li a {
     text-decoration: none;
-    color: black;
+    color: rgba(0, 0, 0, 0.953);
 }
 div.team-web nav {
     width: 500px;
