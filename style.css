@@ -8,7 +8,8 @@
 }
 body{
     background-color: rgb(0 74 173);
-
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -109,8 +110,9 @@ header div.bottom-part div.social ul li a {
 main {
     height:1000px;
     border-radius: 50px 50px 0 0;
-    background-color: white;
+    background-color: white ;
     overflow: hidden ;
+   
 }
 .Creative-net{
     margin-top: 30px;
@@ -133,6 +135,7 @@ div.img-web{
     display: flex;
     align-items: center;
     flex-direction: column;
+    
 
 
 }
@@ -175,10 +178,8 @@ div.team-web ul  li a {
 }
 footer{
     border-bottom: solid 4px rgb(221, 212, 212);
+    font-size:20px;
+ 
+  
 }
 
- footer p{
-    text-align: right;
-     padding-bottom: 360px;
-
-}
