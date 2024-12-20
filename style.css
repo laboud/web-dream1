@@ -12,7 +12,7 @@ body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
     text-align: center;
-    background-image: url(images/Black_and_Pink_Geometric_Business_Landing_Page_Simple_Websie_UI_Prototype.png);
+    background-image: url(images/Background_4.png);
     background-size: cover;
 }
 
@@ -78,6 +78,14 @@ header div.top-part nav ul li {
 header div.top-part nav ul li a {
     text-decoration: none;
     color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+header div.top-part nav ul li a:hover {
+    text-decoration: none;
+    color: rgb(139, 138, 138);
+    transition: all 0.3s ease;
 }
 
 header div.bottom-part {
