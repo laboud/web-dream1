@@ -25,6 +25,10 @@ header div.top-part {
   display: flex;
   justify-content: flex-start;
   border-bottom: solid 3px rgb(37, 120, 255);
+  margin-left: 60px;
+  margin-right: 60px;
+  padding: 10px;
+
 }
 
 header div.top-part div.logo {
@@ -144,13 +148,16 @@ nav ul li a:hover {
 
 .p-pr {
   margin-top: 50px;
-  text-align: center;
+  padding-right: 350px;
+  margin: 100px;
 }
 
 .p-pr h1 {
   font-size: 48px;
   margin-bottom: 10px;
-  color: #ffffff;
+  color: #ffffff ;
+ 
+
 }
 
 .p-pr p {
@@ -183,6 +190,14 @@ div.large-logo {
 
 .button:hover {
   background-color: #1457a3;
+   
+}
+ span img{
+ 
+  padding-left: 870px;
+  margin-bottom: 100px;
+ 
+ 
 }
 
 footer div.social-icons {
