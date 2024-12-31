@@ -13,7 +13,7 @@ body {
   background-image: url(images/New\ Project.svg);
   background-size: cover;
   height: 100vh;
-  position: relative;
+ 
 }
 
 header {
@@ -26,6 +26,10 @@ header div.top-part {
   display: flex;
   justify-content: flex-start;
   border-bottom: solid 3px rgb(37, 120, 255);
+  margin-left: 60px;
+  margin-right: 60px;
+  padding: 10px;
+
 }
 
 header div.top-part div.logo {
@@ -75,8 +79,6 @@ header div.top-part nav ul li a {
   text-decoration: none;
   color: white;
   display: flex;
-  font-size: 16px;
-  font-weight: bold;
   justify-content: space-between;
   transition: all 0.3s ease;
 }
@@ -108,6 +110,7 @@ header div.bottom-part div.social ul li {
 }
 
 header div.bottom-part div.social ul li a {
+  font-size: 20px;
   text-decoration: none;
   font-weight: bold;
   color: white;
@@ -136,7 +139,7 @@ nav ul {
 nav ul li a {
   text-decoration: none;
   color: #ffffff;
-
+  font-size: 16px;
   transition: color 0.3s;
 }
 
@@ -144,8 +147,6 @@ nav ul li a:hover {
   color: #ffffff;
 }
 
-/* main {
-} */
 
 main .about-us {
   height: 500px;
@@ -177,8 +178,17 @@ footer div.social-icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
 
+}
+div.images-fr{
+padding-left: 800px;
+padding-top: 200px;
+
+}
+div.cr-motawrin {
+  color: white;
+  padding-bottom: 200px;
+}
 footer {
   position: relative;
   height: 100px;
@@ -188,14 +198,17 @@ footer {
   width: 100%;
   display: flex;
   justify-content: flex-start;
+ 
 }
 
 footer div.social-icons a {
   color: #649ec2;
   font-size: 30px;
   transition: all 0.5s ease;
+
 }
 
 footer div.social-icons a:hover {
   color: #fff;
+
 }
