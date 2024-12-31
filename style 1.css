@@ -185,9 +185,9 @@ padding-left: 800px;
 padding-top: 200px;
 
 }
-div.cr-motawrin {
-  color: white;
-  padding-bottom: 200px;
+main .cr-motawrin {
+color: white;
+
 }
 footer {
   position: relative;
