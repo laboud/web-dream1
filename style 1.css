@@ -170,7 +170,7 @@ main .about-us p {
 }
 
 div.images-fr {
-  top: 50%;
+  top: 60%;
   right: 250px;
   transform: translateY(-50%);
   position: absolute;
@@ -178,12 +178,12 @@ div.images-fr {
 }
 
 main .developers-section {
-  margin-top: 50px;
+  margin-top: 00px;
 }
 
 main .developers-section h1 {
-  font-size: 36px;
-  margin-bottom: 20px;
+  font-size: 46px;
+  margin-bottom: 10px;
 }
 
 main .developers-list {
@@ -191,6 +191,7 @@ main .developers-list {
   flex-direction: column;
   gap: 15px;
   align-items: center;
+  margin-right: 700px;
 }
 
 main .developers-list .developer {
