@@ -156,6 +156,7 @@ nav ul li a:hover {
   text-align: center;
   color: white;
   gap: 70px; 
+
 }
 
 .p-pr .text {
@@ -167,23 +168,28 @@ nav ul li a:hover {
   font-weight: bold;
   margin-bottom: 20px;
   color: white;
+  
 }
 
 .p-pr .text p {
   font-size: 18px;
   line-height: 1.5;
   color: #bdbdbd; 
+  
 }
 
 .p-pr img {
   max-width: 400px; 
   height: auto;
   border-radius: 10px; 
+  padding-bottom: 200px;
 }
 
 .img.Creative img {
   max-width: 150px;
   margin: 0 auto;
+  padding-bottom: 200px;
+  
 }
 div.large-logo {
   width: 130rem;
@@ -196,17 +202,19 @@ div.large-logo {
   background-color: #1f8bff;
   color: #fff;
   border: none;
-  padding: 15px 30px;
+  padding: 3px 30px;
   border-radius: 50px;
   font-size: 20px;
   cursor: pointer;
   text-decoration: none;
   margin-top: 20px;
   transition: background-color 0.3s, transform 0.2s;
+ 
 }
 
 .button:hover {
   background-color: #1457a3;
+  
  
 }
 

@@ -13,7 +13,7 @@ body {
   background-image: url(images/New\ Project.svg);
   background-size: cover;
   height: 100vh;
- 
+
 }
 
 header {
@@ -115,6 +115,7 @@ header div.bottom-part div.social ul li a {
   font-weight: bold;
   color: white;
 }
+
 .logo img {
   max-width: 50px;
 }
@@ -147,6 +148,9 @@ nav ul li a:hover {
   color: #ffffff;
 }
 
+main {
+  position: relative
+}
 
 main .about-us {
   height: 500px;
@@ -154,11 +158,13 @@ main .about-us {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+
 }
 
 main .about-us h1 {
   color: #fff;
   font-size: 60px;
+
 }
 
 main .about-us p {
@@ -180,15 +186,18 @@ footer div.social-icons {
   align-items: center;
 
 }
-div.images-fr{
-padding-left: 800px;
-padding-top: 200px;
 
+div.images-fr {
+  padding-left: 800px;
+  padding-top: 200px;
+  position: relative
 }
+
 main .cr-motawrin {
-color: white;
-
+  color: white;
+  position: relative
 }
+
 footer {
   position: relative;
   height: 100px;
@@ -198,7 +207,7 @@ footer {
   width: 100%;
   display: flex;
   justify-content: flex-start;
- 
+
 }
 
 footer div.social-icons a {
