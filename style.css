@@ -1,4 +1,3 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
 
 * {
@@ -14,7 +13,7 @@ body {
   background-image: url(images/New\ Project.svg);
   background-size: cover;
   height: 100vh;
- 
+
 }
 
 header {
@@ -116,6 +115,7 @@ header div.bottom-part div.social ul li a {
   font-weight: bold;
   color: white;
 }
+
 .logo img {
   max-width: 50px;
 }
@@ -155,12 +155,13 @@ nav ul li a:hover {
   align-items: center;
   text-align: center;
   color: white;
-  gap: 70px; 
+  gap: 70px;
+
 
 }
 
 .p-pr .text {
-  max-width: 600px; 
+  max-width: 600px;
 }
 
 .p-pr .text h1 {
@@ -168,29 +169,27 @@ nav ul li a:hover {
   font-weight: bold;
   margin-bottom: 20px;
   color: white;
-  
+
 }
 
 .p-pr .text p {
   font-size: 18px;
   line-height: 1.5;
-  color: #bdbdbd; 
-  
+  color: #bdbdbd;
+
 }
 
 .p-pr img {
-  max-width: 400px; 
-  height: auto;
-  border-radius: 10px; 
-  padding-bottom: 200px;
+  width: 500px;
+
 }
 
-.img.Creative img {
-  max-width: 150px;
-  margin: 0 auto;
-  padding-bottom: 200px;
-  
+div.img-alt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 div.large-logo {
   width: 130rem;
   display: flex;
@@ -209,22 +208,23 @@ div.large-logo {
   text-decoration: none;
   margin-top: 20px;
   transition: background-color 0.3s, transform 0.2s;
- 
+
 }
 
 .button:hover {
   background-color: #1457a3;
-  
- 
+
+
 }
 
-div.naves-good{
+div.naves-good {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-left: 550px;
-   
+
 }
+
 footer div.social-icons {
   position: absolute;
   bottom: 0;
@@ -237,6 +237,7 @@ footer div.social-icons {
   justify-content: space-around;
   align-items: center;
 }
+
 footer {
   position: relative;
   height: 100px;
@@ -257,10 +258,11 @@ footer div.social-icons a {
 footer div.social-icons a:hover {
   color: #fff;
 }
-div.img-web{
-    width: 170rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: column;
+
+div.img-web {
+  width: 170rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
 }

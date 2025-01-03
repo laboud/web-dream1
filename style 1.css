@@ -149,17 +149,13 @@ nav ul li a:hover {
 }
 
 main {
-  position: relative
-}
-
-main .about-us {
-  height: 500px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+  position: relative;
+  overflow: hidden;
+  height: calc(100vh - 160px);
 
 }
+
+
 
 main .about-us h1 {
   color: #fff;
@@ -172,6 +168,21 @@ main .about-us p {
   font-size: 35px;
   width: 40%;
 }
+
+div.images-fr {
+  top: 50%;
+  right: 250px;
+  transform: translateY(-50%);
+  position: absolute;
+
+}
+
+main .cr-motawrin {
+  color: white;
+  position: relative;
+
+}
+
 
 footer div.social-icons {
   position: absolute;
@@ -187,16 +198,6 @@ footer div.social-icons {
 
 }
 
-div.images-fr {
-  padding-left: 800px;
-  padding-top: 200px;
-  position: relative
-}
-
-main .cr-motawrin {
-  color: white;
-  position: relative
-}
 
 footer {
   position: relative;
