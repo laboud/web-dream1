@@ -182,6 +182,17 @@ main .cr-motawrin {
   position: relative;
 
 }
+    
+div.links-container {
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
 
 
 footer div.social-icons {
