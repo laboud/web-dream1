@@ -211,7 +211,9 @@ main .developers-list .developer p {
   margin: 0;
   font-size: 18px;
 }
-
+div.developers-section h1{
+  color: white;
+}
 
 footer div.social-icons {
   position: absolute;
