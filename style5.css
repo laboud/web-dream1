@@ -174,8 +174,8 @@ footer div.social-icons {
     margin-top: 20px;
     transition: background-color 0.3s, transform 0.2s;
     position: relative;
-    top: 110px; /* المسافة التي تريد تحريك الزر بها للأسفل */
-    margin: 30px; /* مسافة بين الزرين */
+    top: 110px;
+    margin: 30px; 
 
   
   }
