@@ -147,7 +147,34 @@ nav ul li a {
 nav ul li a:hover {
   color: #ffffff;
 }
-
+.button {
+    
+    background-color: #1f8bff;
+    color: #fff;
+    border: none;
+    padding: 3px 50px;
+    border-radius: 50px;
+    font-size: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: background-color 0.3s, transform 0.2s;
+    position: relative;
+    top: 110px; /* المسافة التي تريد تحريك الزر بها للأسفل */
+    margin: 30px; /* مسافة بين الزرين */
+  
+  }
+  .buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .button:hover {
+    background-color: #1457a3;
+  
+  
+  }
 main {
   position: relative;
   overflow: hidden;
