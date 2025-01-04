@@ -232,8 +232,9 @@ footer div.social-icons {
   align-items: center;
 
 }
-
-
+div.developer img{
+    width: 200px;
+}
 footer {
   position: relative;
   height: 100px;
