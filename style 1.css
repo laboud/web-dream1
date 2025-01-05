@@ -196,8 +196,10 @@ main .developers-list {
 main .developers-list .developer {
   display: flex;
   align-items: center;
-  padding: 170px 50px;
-  color: white;
+  gap: 10px;
+
+  padding: 10px 20px;
+color: white;
 }
 
 main .developers-list .developer i {
@@ -205,18 +207,13 @@ main .developers-list .developer i {
   font-size: 24px;
 }
 
- .developer img{
-  width: 20px;
-  margin-left: -10px;
- }
 main .developers-list .developer p {
   margin: 0;
   font-size: 18px;
-  width: 180px; 
+  width: 180px; /* لوزن الكلمات للمطورين */
 }
 div.developers-section h1{
   color: white;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 main .developer3 p {
   font-size: 100px;
@@ -257,6 +254,4 @@ footer div.social-icons a {
 }
 
 footer div.social-icons a:hover {
-  color: #fff;
-
-}
+  color: #fff;}
