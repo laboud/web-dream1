@@ -221,7 +221,17 @@ nav ul li a {
   margin: auto 0;
 }
 
+.section__text__p1{
 
+  color: #008cff;
+  font-size:30px;
+  line-height: 2;
+}
+.title{
+  color: #ffffff;
+  font-size:15px;
+  line-height: 2;
+}
 #experience {
   position: relative;
 }
