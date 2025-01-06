@@ -185,11 +185,14 @@ footer div.social-icons {
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    
   }
-  .button:hover {
-    background-color: #1457a3;
-  
-  
+  .button:hover{
+    color: #1f8bff;
+    border-radius:30px;
+    border: 3px solid #eb1869;
+    transition: 0.4s;
+    background-color: #fff;
   }
 
 footer {
