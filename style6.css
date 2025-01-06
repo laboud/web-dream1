@@ -203,10 +203,10 @@ nav ul li a {
 .details-container {
   padding: 1.5rem;
   flex: 1;
-  background: white;
+  background: #153361;
   border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
+  border: rgb(31 107 155) 0.1rem solid;
+  border-color: rgb(31 107 155);
   text-align: center;
 }
 
