@@ -1,165 +1,151 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
 
 * {
-    font-family: "Kanit", sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  font-family: "Kanit", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: "Arial", sans-serif;
-    text-align: center;
-    background-image: url(images/New\ Project.svg);
-    background-size: cover;
-    height: 100vh;
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  background-image: url(images/New\ Project.svg);
+  background-size: cover;
+  height: 100vh;
 
 }
 
 header {
-    display: flex;
-    flex-direction: column;
-    height: 160px;
+  display: flex;
+  flex-direction: column;
+  height: 160px;
 }
 
 header div.top-part {
-    display: flex;
-    justify-content: flex-start;
-    border-bottom: solid 3px rgb(37, 120, 255);
-    margin-left: 60px;
-    margin-right: 60px;
-    padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: solid 3px rgb(37, 120, 255);
+  margin-left: 60px;
+  margin-right: 60px;
+  padding: 10px;
 
 }
 
 header div.top-part div.logo {
-    width: 150px;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 150px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 header div.top-part div.title-logo {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 header div.top-part div.title-logo h1 {
-    font-size: 20px;
-    color: white;
+  font-size: 20px;
+  color: white;
 }
 
 header div.top-part div.title-logo p {
-    font-size: 15px;
-    color: white;
+  font-size: 15px;
+  color: white;
 }
 
 header div.top-part nav {
-    width: 500px;
-    height: 100%;
+  width: 500px;
+  height: 100%;
 }
 
 header div.top-part nav ul {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 100%;
-    width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  width: 100%;
 }
 
 header div.top-part nav ul li {
-    list-style: none;
+  list-style: none;
 }
 
 header div.top-part nav ul li a {
-    text-decoration: none;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    transition: all 0.3s ease;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  transition: all 0.3s ease;
 }
 
 header div.top-part nav ul li a:hover {
-    text-decoration: none;
-    color: rgb(139, 138, 138);
+  text-decoration: none;
+  color: rgb(139, 138, 138);
 }
 
 header div.bottom-part {
-    height: 50%;
+  height: 50%;
 }
 
 header div.bottom-part div.social {
-    width: 500px;
-    height: 100%;
+  width: 500px;
+  height: 100%;
 }
 
 header div.bottom-part div.social ul {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 header div.bottom-part div.social ul li {
-    list-style: none;
+  list-style: none;
 }
 
 header div.bottom-part div.social ul li a {
-    font-size: 20px;
-    text-decoration: none;
-    font-weight: bold;
-    color: white;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
 }
 
 .logo img {
-    max-width: 50px;
+  max-width: 50px;
 }
 
 .title-logo h1 {
-    font-size: 24px;
-    margin: 0;
+  font-size: 24px;
+  margin: 0;
 }
 
 .title-logo p {
-    font-size: 14px;
-    color: #ffffff;
-    margin-top: 5px;
+  font-size: 14px;
+  color: #ffffff;
+  margin-top: 5px;
 }
 
 nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
+  list-style: none;
+  display: flex;
+  gap: 20px;
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 16px;
-    transition: color 0.3s;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  transition: color 0.3s;
 }
 
 nav ul li a:hover {
-    color: #ffffff;
-}
-
-footer div.social-icons {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 500px;
-    height: 100%;
-    margin-left: 100px;
-    color: #fff;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
+  color: #ffffff;
 }
 .button {
     
@@ -174,13 +160,11 @@ footer div.social-icons {
     margin-top: 20px;
     transition: background-color 0.3s, transform 0.2s;
     position: relative;
-    top: 110px;
-    margin: 30px; 
-
+    top: 110px; /* المسافة التي تريد تحريك الزر بها للأسفل */
+    margin: 30px; /* مسافة بين الزرين */
   
   }
   .buttons{
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -194,27 +178,113 @@ footer div.social-icons {
     transition: 0.4s;
     background-color: #fff;
   }
+main {
+  position: relative;
+  overflow: hidden;
+  height: calc(100vh - 160px);
 
+}
+
+
+
+main .about-us h1 {
+  color: #fff;
+  font-size: 60px;
+
+}
+
+main .about-us p {
+  color: #ccc;
+  font-size: 35px;
+  width: 40%;
+}
+
+div.images-fr {
+  top: 60%;
+  right: 250px;
+  transform: translateY(-50%);
+  position: absolute;
+
+}
+
+main .developers-section {
+  margin-top: 00px;
+}
+main .developers-section h1 {
+  font-size: 46px;
+  margin-bottom: 10px;
+}
+
+main .developers-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  margin-right: 700px;
+}
+
+main .developers-list .developer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  
+  padding: 10px 20px;
+color: white;
+}
+
+main .developers-list .developer i {
+  color: #649ec2;
+  font-size: 24px;
+}
+
+main .developers-list .developer p {
+  margin: 0;
+  font-size: 18px;
+  width: 180px; /* لوزن الكلمات للمطورين */
+}
+div.developers-section h1{
+  color: white;
+}
+main .developer3 p {
+  font-size: 100px;
+}
+
+footer div.social-icons {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 500px;
+  height: 100%;
+  margin-left: 100px;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+div.developer img{
+    width: 200px;
+}
 footer {
-    position: relative;
-    height: 100px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
+  position: relative;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
 
 }
 
 footer div.social-icons a {
-    color: #649ec2;
-    font-size: 30px;
-    transition: all 0.5s ease;
+  color: #649ec2;
+  font-size: 30px;
+  transition: all 0.5s ease;
 
 }
 
 footer div.social-icons a:hover {
-    color: #fff;
+  color: #fff;
 
 }
