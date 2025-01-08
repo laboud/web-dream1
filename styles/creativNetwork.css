@@ -145,3 +145,68 @@ nav ul li a {
 nav ul li a:hover {
 	color: #ffffff;
 }
+section{
+	background-color: #0099ff7c;
+	border: solid 2px cadetblue;
+	width: 250px;
+	height: 300px;
+	padding: 1.5rem 0;
+	gap: 20px;
+
+}
+.cr-zone p{
+color: white;
+}
+.cr-zone img{
+	width: 100px;
+}
+.cr-zone a{
+	align-items: none;
+	background-color:rgb(35, 90, 255);
+}
+footer div.social-icons {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 500px;
+	height: 100%;
+	margin-left: 100px;
+	color: #fff;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+footer div.social-icons {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 500px;
+	height: 100%;
+	margin-left: 100px;
+	color: #fff;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+footer {
+	position: relative;
+	height: 100px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+}
+
+footer div.social-icons a {
+	color: #649ec2;
+	font-size: 30px;
+	transition: all 0.5s ease;
+}
+
+footer div.social-icons a:hover {
+	color: #fff;
+}
