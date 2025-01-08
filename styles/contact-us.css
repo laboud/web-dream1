@@ -1,3 +1,10 @@
+main {
+	border-bottom: 5px solid rgb(37, 120, 255);
+	padding-bottom: 150px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
 main .about-us h1 {
 	color: #fff;
 	font-size: 55px;
@@ -17,6 +24,19 @@ main .about-us p {
 
 main .about-us {
 	padding: 40px 20px;
+}
+
+footer div.social-icons {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 500px;
+	height: 100%;
+	margin-left: 100px;
+	color: #fff;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
 
 footer div.social-icons {

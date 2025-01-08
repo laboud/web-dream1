@@ -1,3 +1,14 @@
+.teams-button {
+	display: flex;
+	justify-content: start;
+}
+
+.teams-button a {
+	width: 200px;
+	text-align: end;
+	padding: 10px 30px;
+}
+
 .p-pr {
 	margin-top: 50px;
 	display: flex;
@@ -10,6 +21,10 @@
 
 .p-pr .text {
 	max-width: 600px;
+}
+
+.p-pr .text p {
+	margin-bottom: 50px;
 }
 
 .p-pr .text h1 {
@@ -40,19 +55,6 @@ div.large-logo {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-}
-
-.button {
-	background-color: #1f8bff;
-	color: #fff;
-	border: none;
-	padding: 3px 30px;
-	border-radius: 50px;
-	font-size: 20px;
-	cursor: pointer;
-	text-decoration: none;
-	margin-top: 20px;
-	transition: background-color 0.3s, transform 0.2s;
 }
 
 .button:hover {
