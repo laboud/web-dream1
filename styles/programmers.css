@@ -1,7 +1,6 @@
 main {
 	position: relative;
-	overflow: hidden;
-	height: calc(100vh - 160px);
+	height: fit-content;
 }
 
 header {
