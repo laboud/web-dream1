@@ -146,7 +146,7 @@ nav ul li a:hover {
 	color: #ffffff;
 }
 section {
-    background: linear-gradient(135deg, #0099ff7c, #004d99); /* ألوان متدرجة */
+    background: linear-gradient(135deg, #0099ff7c, #004d99); 
     border: solid 2px #007acc;
     width: 300px; 
     height: 350px; 
@@ -164,8 +164,8 @@ section {
     position: relative; 
 }
 section:hover {
-    transform: translateY(-10px) scale(1.03); /* تحريك مع تكبير بسيط */
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5), 0 8px 8px rgba(0, 0, 0, 0.3); /* تكبير الظل */
+    transform: translateY(-10px) scale(1.03); 
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5), 0 8px 8px rgba(0, 0, 0, 0.3); 
 }
 section::before {
     content: "";
@@ -208,7 +208,7 @@ section::before {
 }
 
 .cr-zone a {
-    background: linear-gradient(45deg, #ff7e5f, #feb47b); 
+	background: linear-gradient(45deg, #8e0101, #070707);
     color: white;
     padding: 10px 20px;
     text-decoration: none;
