@@ -83,7 +83,7 @@ main .developers-list .developer i {
 main .developers-list .developer p {
 	margin: 0;
 	font-size: 18px;
-	width: 180px; /* لوزن الكلمات للمطورين */
+	width: 180px;
 }
 div.developers-section h1 {
 	color: white;
