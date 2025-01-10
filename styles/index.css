@@ -157,4 +157,8 @@ nav ul li a:hover {
 	text-decoration: none;
 	margin-top: 20px;
 	transition: background-color 0.3s, transform 0.2s;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-around;
+	align-items: center;
 }
