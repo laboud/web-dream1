@@ -18,30 +18,40 @@ body {
 header {
 	display: flex;
 	flex-direction: column;
-	padding: 15px;
+	height: 160px;
 }
 
 header div.top-part {
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 	border-bottom: solid 3px rgb(37, 120, 255);
+	margin-left: 60px;
+	margin-right: 60px;
 	padding: 10px;
 }
 
-
-header div.top-part .text-top-logo .title-logo{
-	width: 100%;
+header div.top-part div.logo {
+	width: 150px;
+	height: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-header div.top-part .text-top-logo div.title-logo h1 {
+header div.top-part div.title-logo {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+header div.top-part div.title-logo h1 {
 	font-size: 20px;
 	color: white;
 }
 
-header div.top-part .text-top-logo div.title-logo p {
+header div.top-part div.title-logo p {
 	font-size: 15px;
 	color: white;
 }
